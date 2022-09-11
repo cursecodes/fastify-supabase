@@ -1,6 +1,6 @@
 {
-  "name": "fastify-supabase",
-  "version": "1.2.1",
+  "name": "@grid-rbx/fastify-supabase",
+  "version": "1.0.0",
   "description": "Supabase client initialization and encapsulation in fastify framework",
   "main": "plugin.js",
   "types": "plugin.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/coopflow/fastify-supabase.git"
+    "url": "git+ssh://git@github.com/grid-rbx/fastify-supabase.git"
   },
   "keywords": [
     "fastify",
@@ -26,17 +26,17 @@
     "postgreSQL",
     "supabase"
   ],
-  "author": "Jean-Michel Coghe <jean.michel.coghe@coopflow.com>",
+  "author": "Grid <contact@gridapp.tech>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coopflow/fastify-supabase/issues"
+    "url": "https://github.com/grid-rbx/fastify-supabase/issues"
   },
-  "homepage": "https://github.com/coopflow/fastify-supabase#readme",
+  "homepage": "https://github.com/grid-rbx/fastify-supabase#readme",
   "engines": {
     "node": ">=14"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^1.30.7",
+    "@supabase/supabase-js": "^2.0.0-rc.10",
     "fastify-plugin": "^3.0.1"
   },
   "devDependencies": {
