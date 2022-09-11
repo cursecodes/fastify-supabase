@@ -1,5 +1,5 @@
 {
-  "name": "@grid-rbx/fastify-supabase",
+  "name": "@cursecode/fastify-supabase",
   "version": "1.0.0",
   "description": "Supabase client initialization and encapsulation in fastify framework",
   "main": "plugin.js",
